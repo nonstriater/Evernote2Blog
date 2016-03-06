@@ -1,0 +1,17 @@
+Package: olla.Evernote2myblog
+Name: Evernote2myblog
+Version: 1.0-1
+Description: 分享印象笔记到我的博客
+Section: System
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: nonstriater
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

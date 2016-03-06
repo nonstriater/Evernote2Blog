@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26BBAE421ABC1EFB00281DB0 /* UIWebView+addtions.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BBAE401ABC1EFB00281DB0 /* UIWebView+addtions.h */; };
+		26BBAE431ABC1EFB00281DB0 /* UIWebView+addtions.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BBAE411ABC1EFB00281DB0 /* UIWebView+addtions.m */; };
+		26BBAE451ABC20EF00281DB0 /* EVEDefaultNoteViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BBAE441ABC20EF00281DB0 /* EVEDefaultNoteViewController.h */; };
+		26BBAE471ABC279200281DB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BBAE461ABC279200281DB0 /* CoreGraphics.framework */; };
+		26BBAE851AC0140600281DB0 /* push2Blog.sh in Resources */ = {isa = PBXBuildFile; fileRef = 26BBAE841AC0140600281DB0 /* push2Blog.sh */; };
+		26BBAE8C1AC1133D00281DB0 /* ENMarketSVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BBAE8B1AC1133D00281DB0 /* ENMarketSVProgressHUD.h */; };
+		26BBAE8E1AC1920D00281DB0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BBAE8D1AC1920D00281DB0 /* CoreFoundation.framework */; };
+		26CAFF761ABACFD700EA8FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CAFF751ABACFD700EA8FCA /* Foundation.framework */; };
+		26CAFF811ABACFD700EA8FCA /* Evernote2myblog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26CAFF801ABACFD700EA8FCA /* Evernote2myblog.mm */; };
+		26CAFF8C1ABAD47F00EA8FCA /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CAFF8B1ABAD47F00EA8FCA /* libsubstrate.dylib */; };
+		26CAFF8E1ABAFC0400EA8FCA /* EVEActionSheetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 26CAFF8D1ABAFC0400EA8FCA /* EVEActionSheetCell.h */; };
+		26CAFF901ABB006800EA8FCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CAFF8F1ABB006800EA8FCA /* UIKit.framework */; };
+		26CAFF921ABB0CF400EA8FCA /* EVEActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 26CAFF911ABB0CF400EA8FCA /* EVEActionSheet.h */; };
+		26CAFF951ABB205300EA8FCA /* shareToMyBlog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26CAFF931ABB1B6800EA8FCA /* shareToMyBlog@2x.png */; };
+		26D0B4A01AC278DA00541230 /* AppSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D0B49F1AC278D700541230 /* AppSupport.framework */; };
+		26D0B4A31AC27B7B00541230 /* AppSupport-Structs.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D0B4A21AC27B7B00541230 /* AppSupport-Structs.h */; };
+		26D0B4A51AC27BB000541230 /* CPDistributedMessagingCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D0B4A41AC27BB000541230 /* CPDistributedMessagingCenter.h */; };
+		26D0B4A71AC27BD500541230 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D0B4A61AC27BD500541230 /* SystemConfiguration.framework */; };
+		26D0B4A91AC2989300541230 /* bootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D0B4A81AC2989300541230 /* bootstrap.h */; };
+		26D0B4AE1AC2ADE300541230 /* librocketbootstrap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D0B4AD1AC2ADE300541230 /* librocketbootstrap.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26BBAE401ABC1EFB00281DB0 /* UIWebView+addtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+addtions.h"; sourceTree = "<group>"; };
+		26BBAE411ABC1EFB00281DB0 /* UIWebView+addtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+addtions.m"; sourceTree = "<group>"; };
+		26BBAE441ABC20EF00281DB0 /* EVEDefaultNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEDefaultNoteViewController.h; sourceTree = "<group>"; };
+		26BBAE461ABC279200281DB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26BBAE841AC0140600281DB0 /* push2Blog.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = push2Blog.sh; sourceTree = "<group>"; };
+		26BBAE8B1AC1133D00281DB0 /* ENMarketSVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENMarketSVProgressHUD.h; sourceTree = "<group>"; };
+		26BBAE8D1AC1920D00281DB0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		26CAFF721ABACFD700EA8FCA /* Evernote2myblog.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Evernote2myblog.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CAFF751ABACFD700EA8FCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26CAFF7A1ABACFD700EA8FCA /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		26CAFF7B1ABACFD700EA8FCA /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		26CAFF7D1ABACFD700EA8FCA /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		26CAFF7E1ABACFD700EA8FCA /* Evernote2myblog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Evernote2myblog-Prefix.pch"; sourceTree = "<group>"; };
+		26CAFF7F1ABACFD700EA8FCA /* Evernote2myblog.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Evernote2myblog.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		26CAFF801ABACFD700EA8FCA /* Evernote2myblog.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Evernote2myblog.mm; sourceTree = "<group>"; };
+		26CAFF851ABACFD700EA8FCA /* Evernote2myblog.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Evernote2myblog.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Evernote2myblog.plist; sourceTree = "<group>"; };
+		26CAFF8B1ABAD47F00EA8FCA /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		26CAFF8D1ABAFC0400EA8FCA /* EVEActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEActionSheetCell.h; sourceTree = "<group>"; };
+		26CAFF8F1ABB006800EA8FCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26CAFF911ABB0CF400EA8FCA /* EVEActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEActionSheet.h; sourceTree = "<group>"; };
+		26CAFF931ABB1B6800EA8FCA /* shareToMyBlog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shareToMyBlog@2x.png"; sourceTree = "<group>"; };
+		26D0B49F1AC278D700541230 /* AppSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/AppSupport.framework; sourceTree = DEVELOPER_DIR; };
+		26D0B4A21AC27B7B00541230 /* AppSupport-Structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppSupport-Structs.h"; sourceTree = "<group>"; };
+		26D0B4A41AC27BB000541230 /* CPDistributedMessagingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDistributedMessagingCenter.h; sourceTree = "<group>"; };
+		26D0B4A61AC27BD500541230 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		26D0B4A81AC2989300541230 /* bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bootstrap.h; sourceTree = "<group>"; };
+		26D0B4AA1AC298CA00541230 /* rocketbootstrap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rocketbootstrap.h; sourceTree = "<group>"; };
+		26D0B4AD1AC2ADE300541230 /* librocketbootstrap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librocketbootstrap.dylib; path = ../../../../opt/theos/lib/librocketbootstrap.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26CAFF6E1ABACFD700EA8FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D0B4AE1AC2ADE300541230 /* librocketbootstrap.dylib in Frameworks */,
+				26D0B4A71AC27BD500541230 /* SystemConfiguration.framework in Frameworks */,
+				26D0B4A01AC278DA00541230 /* AppSupport.framework in Frameworks */,
+				26BBAE8E1AC1920D00281DB0 /* CoreFoundation.framework in Frameworks */,
+				26BBAE471ABC279200281DB0 /* CoreGraphics.framework in Frameworks */,
+				26CAFF901ABB006800EA8FCA /* UIKit.framework in Frameworks */,
+				26CAFF8C1ABAD47F00EA8FCA /* libsubstrate.dylib in Frameworks */,
+				26CAFF761ABACFD700EA8FCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26CAFF671ABACFD700EA8FCA = {
+			isa = PBXGroup;
+			children = (
+				26CAFF771ABACFD700EA8FCA /* Evernote2myblog */,
+				26CAFF741ABACFD700EA8FCA /* Frameworks */,
+				26CAFF731ABACFD700EA8FCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26CAFF731ABACFD700EA8FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26CAFF721ABACFD700EA8FCA /* Evernote2myblog.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26CAFF741ABACFD700EA8FCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26D0B4AD1AC2ADE300541230 /* librocketbootstrap.dylib */,
+				26D0B4A61AC27BD500541230 /* SystemConfiguration.framework */,
+				26D0B49F1AC278D700541230 /* AppSupport.framework */,
+				26BBAE8D1AC1920D00281DB0 /* CoreFoundation.framework */,
+				26BBAE461ABC279200281DB0 /* CoreGraphics.framework */,
+				26CAFF8F1ABB006800EA8FCA /* UIKit.framework */,
+				26CAFF8B1ABAD47F00EA8FCA /* libsubstrate.dylib */,
+				26CAFF751ABACFD700EA8FCA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26CAFF771ABACFD700EA8FCA /* Evernote2myblog */ = {
+			isa = PBXGroup;
+			children = (
+				26CAFF8D1ABAFC0400EA8FCA /* EVEActionSheetCell.h */,
+				26CAFF911ABB0CF400EA8FCA /* EVEActionSheet.h */,
+				26BBAE441ABC20EF00281DB0 /* EVEDefaultNoteViewController.h */,
+				26BBAE8B1AC1133D00281DB0 /* ENMarketSVProgressHUD.h */,
+				26BBAE841AC0140600281DB0 /* push2Blog.sh */,
+				26CAFF931ABB1B6800EA8FCA /* shareToMyBlog@2x.png */,
+				26BBAE401ABC1EFB00281DB0 /* UIWebView+addtions.h */,
+				26BBAE411ABC1EFB00281DB0 /* UIWebView+addtions.m */,
+				26CAFF7F1ABACFD700EA8FCA /* Evernote2myblog.xm */,
+				26CAFF801ABACFD700EA8FCA /* Evernote2myblog.mm */,
+				26D0B4A11AC27B4F00541230 /* Private */,
+				26CAFF781ABACFD700EA8FCA /* Package */,
+				26CAFF7C1ABACFD700EA8FCA /* Supporting Files */,
+			);
+			path = Evernote2myblog;
+			sourceTree = "<group>";
+		};
+		26CAFF781ABACFD700EA8FCA /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				26CAFF791ABACFD700EA8FCA /* DEBIAN */,
+				26CAFF821ABACFD700EA8FCA /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		26CAFF791ABACFD700EA8FCA /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				26CAFF7A1ABACFD700EA8FCA /* control.txt */,
+				26CAFF7B1ABACFD700EA8FCA /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		26CAFF7C1ABACFD700EA8FCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26CAFF7D1ABACFD700EA8FCA /* PackageVersion.plist */,
+				26CAFF7E1ABACFD700EA8FCA /* Evernote2myblog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26CAFF821ABACFD700EA8FCA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				26CAFF831ABACFD700EA8FCA /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		26CAFF831ABACFD700EA8FCA /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				26CAFF841ABACFD700EA8FCA /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		26CAFF841ABACFD700EA8FCA /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				26CAFF851ABACFD700EA8FCA /* Evernote2myblog.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		26D0B4A11AC27B4F00541230 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				26D0B4A21AC27B7B00541230 /* AppSupport-Structs.h */,
+				26D0B4A41AC27BB000541230 /* CPDistributedMessagingCenter.h */,
+				26D0B4A81AC2989300541230 /* bootstrap.h */,
+				26D0B4AA1AC298CA00541230 /* rocketbootstrap.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26CAFF6F1ABACFD700EA8FCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CAFF8E1ABAFC0400EA8FCA /* EVEActionSheetCell.h in Headers */,
+				26D0B4A51AC27BB000541230 /* CPDistributedMessagingCenter.h in Headers */,
+				26D0B4A31AC27B7B00541230 /* AppSupport-Structs.h in Headers */,
+				26BBAE8C1AC1133D00281DB0 /* ENMarketSVProgressHUD.h in Headers */,
+				26BBAE421ABC1EFB00281DB0 /* UIWebView+addtions.h in Headers */,
+				26BBAE451ABC20EF00281DB0 /* EVEDefaultNoteViewController.h in Headers */,
+				26CAFF921ABB0CF400EA8FCA /* EVEActionSheet.h in Headers */,
+				26D0B4A91AC2989300541230 /* bootstrap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26CAFF711ABACFD700EA8FCA /* Evernote2myblog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CAFF881ABACFD700EA8FCA /* Build configuration list for PBXNativeTarget "Evernote2myblog" */;
+			buildPhases = (
+				26CAFF6C1ABACFD700EA8FCA /* ShellScript */,
+				26CAFF6D1ABACFD700EA8FCA /* Sources */,
+				26CAFF6E1ABACFD700EA8FCA /* Frameworks */,
+				26CAFF6F1ABACFD700EA8FCA /* Headers */,
+				26CAFF701ABACFD700EA8FCA /* ShellScript */,
+				26CAFF941ABB204600EA8FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Evernote2myblog;
+			productName = Evernote2myblog;
+			productReference = 26CAFF721ABACFD700EA8FCA /* Evernote2myblog.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26CAFF681ABACFD700EA8FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					26CAFF711ABACFD700EA8FCA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 26CAFF6B1ABACFD700EA8FCA /* Build configuration list for PBXProject "Evernote2myblog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26CAFF671ABACFD700EA8FCA;
+			productRefGroup = 26CAFF731ABACFD700EA8FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26CAFF711ABACFD700EA8FCA /* Evernote2myblog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26CAFF941ABB204600EA8FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CAFF951ABB205300EA8FCA /* shareToMyBlog@2x.png in Resources */,
+				26BBAE851AC0140600281DB0 /* push2Blog.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26CAFF6C1ABACFD700EA8FCA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		26CAFF701ABACFD700EA8FCA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26CAFF6D1ABACFD700EA8FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CAFF811ABACFD700EA8FCA /* Evernote2myblog.mm in Sources */,
+				26BBAE431ABC1EFB00281DB0 /* UIWebView+addtions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26CAFF861ABACFD700EA8FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		26CAFF871ABACFD700EA8FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		26CAFF891ABACFD700EA8FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Evernote2myblog/Evernote2myblog-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					/opt/theos/bin,
+					/opt/theos/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.1.101;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		26CAFF8A1ABACFD700EA8FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Evernote2myblog/Evernote2myblog-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					/opt/theos/bin,
+					/opt/theos/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.1.101;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26CAFF6B1ABACFD700EA8FCA /* Build configuration list for PBXProject "Evernote2myblog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CAFF861ABACFD700EA8FCA /* Debug */,
+				26CAFF871ABACFD700EA8FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CAFF881ABACFD700EA8FCA /* Build configuration list for PBXNativeTarget "Evernote2myblog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CAFF891ABACFD700EA8FCA /* Debug */,
+				26CAFF8A1ABACFD700EA8FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26CAFF681ABACFD700EA8FCA /* Project object */;
+}

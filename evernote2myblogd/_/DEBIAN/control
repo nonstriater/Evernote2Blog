@@ -1,0 +1,11 @@
+Package: Evernote2myblogd
+Name: Evernote2myblogd
+Depends: 
+Architecture: iphoneos-arm
+Description: An awesome tool of some sort!!
+Maintainer: nonstriater
+Author: nonstriater
+Section: System
+Tag: role::hacker
+Version: 0.0.1-22
+Installed-Size: 56
